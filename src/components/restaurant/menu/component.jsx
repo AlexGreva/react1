@@ -1,6 +1,5 @@
 import React from "react";
 import { MenuItem } from "./menuItem/component";
-import { Reviews } from "./reviews/component";
 export const Menu = ({list}) => {
     console.log(list)
     return (
@@ -11,7 +10,6 @@ export const Menu = ({list}) => {
         return <li>
             <MenuItem menuItem={item} />
         </li>
-        return <h3>info={Reviews}</h3>
     } )}  
         </ul>
        
